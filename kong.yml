@@ -1,0 +1,9 @@
+_format_version: "3.0"
+
+services:
+  - name: placeholder-service
+    url: http://localhost:9999
+    routes:
+      - name: placeholder-route
+        paths:
+          - /placeholder
